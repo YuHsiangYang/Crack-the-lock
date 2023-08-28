@@ -1,6 +1,6 @@
 # Crack the lock (幾A幾B)
 
-Other language: [Chinese](ReadME_Chinese.md)
+Other language: [Chinese](./ReadME_Chinese.md)
 
 ## Main feature:
 Use the least times to crack a four digit code based on the hints of A and B.

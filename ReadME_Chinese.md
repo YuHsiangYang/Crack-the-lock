@@ -1,6 +1,6 @@
 # Crack the lock (幾A幾B)
 
-其他語言: [英文](ReadME.md)
+其他語言: [英文](./ReadME.md)
 
 ## 主要功能
 根據提示的A和B，使用最少次數破解四位數字密碼。
