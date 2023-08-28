@@ -2,7 +2,10 @@ import Functions
 import numpy as np
 
 guess_number = Functions.guess_number() #Create an instance of the class guess_number
-answer = input("Enter the answer: ")
+answer = input("Enter the answer, leave it blank to let it be computer generated: ")
+if len(answer) == 0:
+    answer = guess_number.Generate_Number()
+    print(f"Generated answer: {answer}")
 
 #Check if the answer has four numbers
 while len(answer) != 4:

@@ -49,4 +49,4 @@ class guess_number:
                 if a_temp == a and b_temp == b:
                     filtered_temp = np.concatenate((filtered_temp, number.reshape(1, 4)), axis=0)
             self.filtered = filtered_temp[1:]
-        print(f"filtered: \n{self.filtered}") #Print the filtered numbers
+        print(f"filtered: \n {self.filtered}") #Print the filtered numbers
