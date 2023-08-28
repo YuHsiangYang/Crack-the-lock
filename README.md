@@ -1,5 +1,7 @@
 # Crack the lock (幾A幾B)
 
+Other language: [Chinese](ReadME_Chinese.md)
+
 ## Main feature:
 Use the least times to crack a four digit code based on the hints of A and B.
 
@@ -26,5 +28,3 @@ python.exe GuessNumber.py
 
 ## Original approach:
 The original approach that I want to use is by using reinforcement learning (RL). I designed reward system, reward system, and the observation. I chose PPO as the RL algorithm and trained several versions of the RL model, but the result is not as good as I expected. The model is not able to learn the pattern of the game. It just randomly generate numbers without considering the observation and the reward. I think that the problem is that the reward system does not have decimal values for different guess. In other words, the reward system did not provide enough information for the model to learn. The model figured out that the best approach to the game is by guessing random number. I have tried many fixes such as designing a more accurate reward system, creating a more simple action space, and providing a more detailed observation about the environment. However, none of these worked. Therefore, I decided to use the current approach which is simpler and more effective.
-
-*The Chinese version about for this project is in ReadME_Chinese.md*
