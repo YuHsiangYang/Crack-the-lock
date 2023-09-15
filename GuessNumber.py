@@ -4,7 +4,6 @@ import numpy as np
 guess_number = Functions.guess_number()
 
 initial_guess = guess_number.Generate_Number()
-# print(guess_number.Generate_Number())
 num_guess = 0
 i = len(guess_number.valid_numbers_np)
 while i > 1:

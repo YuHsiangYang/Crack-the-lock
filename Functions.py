@@ -11,6 +11,7 @@ class guess_number:
             self.valid_numbers = json.load(f)
         self.valid_numbers_np = np.array(self.valid_numbers)
         
+    #Function to generate four digit random non-repeating numbers
     def Generate_Number(self):
         # Generate an array with the numbers 0 to 9
         arr = np.arange(10)
